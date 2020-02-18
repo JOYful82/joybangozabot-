@@ -1,6 +1,5 @@
 import asyncio
 import discord
-import time
 import random
 from twilio.rest import Client
 client = discord.Client()
@@ -38,7 +37,6 @@ async def on_message(message):
     print("tag :" + tag)
     print("meg : " + meg)
     print("where : " + where)
-    print(time.strftime('%Y-%m-%d %I:%M:%S %p', time.localtime(time.time())))
     print("================")
     if message.author.bot: #만약 메시지를 보낸사람이 봇일 경우에는
         return None #동작하지 않고 무시합니다
