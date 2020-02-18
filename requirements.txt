@@ -1,5 +1,5 @@
 discord.py== 1.3.1
 asyncio
-time
+time.py== 3.0.1
 random
 twilio==6.35.4
