@@ -3,7 +3,7 @@ import discord
 import random
 from twilio.rest import Client
 client = discord.Client()
-token = "Njc5MTkxMTE1OTUzNDcxNDg4.XkvxlQ.NIkuvCH1ekJ5NxkqwOvy0QaJnmk"
+token = "Njc5MTkxMTE1OTUzNDcxNDg4.Xkvymw.6Xq_L0heAzjfx1kpBYs3wvlpSeo"
 account_sid = 'AC38c537c785ad70a247a4dbc6a23b2687'
 auth_token = '7f6dc8ad92864f427588c93178c87f2b'
 
